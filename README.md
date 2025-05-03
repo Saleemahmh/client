@@ -1,12 +1,38 @@
-# React + Vite
+# SwitchToDubai 
+ This application is build using **React + Vite ** framework making it lightweight and with minimal setup.
+To create a vite application use the
+    --npm create vite@latest project_name 
+and follow the setup.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Libraries used:**
+- Tailwind CSS
+- Framer Motion
 
-Currently, two official plugins are available:
+**In this application**
+  - I have made the use of glassmorphism for the Navbar
+  - MegaNav or Dropdown with a animations using Framer motion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+  - Login and Register page.
+  - A dashboard when user logs in.
+  
+**Screenshots**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Homepage:**
+
+
+![Home1](https://github.com/user-attachments/assets/f140f27c-4a6e-43cb-ab43-77ead0d687c6)
+
+![Home2](https://github.com/user-attachments/assets/aaa7e07f-210e-4866-84d2-c80cf67d0e06)
+
+![Home3](https://github.com/user-attachments/assets/96514bd4-8dae-4aa6-a49a-31ee39b0a1c0)
+
+**Login & Register:**
+
+![register](https://github.com/user-attachments/assets/5807e78c-6cac-459e-8add-24a3f75091ac)
+
+![Login](https://github.com/user-attachments/assets/031dbb17-1040-4986-a0d9-6004942af99f)
+
+**Dashboard:**
+
+![dashboard](https://github.com/user-attachments/assets/b1af6551-83ec-4653-863b-9e1094b48f4c)
