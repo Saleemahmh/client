@@ -10,7 +10,7 @@ import Dashboard from './pages/userDashboard/Dashboard';
 import MyApplication from "./pages/userDashboard/MyApplication";
 import LicenseRenewal from "./pages/userDashboard/LicenseRenewal";
 import TrackStatus from "./pages/userDashboard/TrackStatus";
-import UserDashboard from "./pages/userDashboard/userDashboard";
+import UserDashboard from "./pages/userDashboard/UserDashboard";
 import UploadDoc from "./pages/userDashboard/UploadDoc";
 function App() {
   return (

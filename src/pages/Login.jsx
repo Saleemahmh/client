@@ -57,12 +57,12 @@ const Login = () => {
           <h1 className='text-3xl'>Login</h1>
           <div className='flex flex-col text-xl text-left gap-1'>
         <span>Username</span>
-        <input type="text" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:bg-amber-100'/>
+        <input type="text" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:bg-amber-100 focus:text-amber-900'/>
           </div>
 
           <div className='flex flex-col text-xl text-left gap-1'>
         <span>Password</span>
-        <input type="password" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:bg-amber-100'/>
+        <input type="password" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:bg-amber-100 focus:text-amber-900'/>
         <div className='flex gap-1 items-center'>
           <input type="checkbox"/>
           <span className='text-base'>Remember password</span>

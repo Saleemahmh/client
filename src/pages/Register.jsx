@@ -14,15 +14,15 @@ const Register = () => {
         <h1 className='text-3xl'>Register</h1>
         <div className='flex flex-col text-xl text-left gap-1'>
       <span>Name</span>
-      <input type="text" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:bg-amber-100'/>
+      <input type="text" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:text-amber-900 focus:bg-amber-100'/>
         </div>
         <div className='flex flex-col text-xl text-left gap-1'>
       <span>Username</span>
-      <input type="text" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:bg-amber-100'/>
+      <input type="text" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:text-amber-900 focus:bg-amber-100'/>
         </div>
         <div className='flex flex-col text-xl text-left gap-1'>
       <span>Password</span>
-      <input type="password" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:bg-amber-100'/>
+      <input type="password" className='rounded-md p-1 border-2 outline-none focus:border-amber-400 focus:text-amber-900 focus:bg-amber-100'/>
         </div>
         <motion.button
                 className="h-[60px] md:w-[150px] w-[220px] m-1 cursor-pointer ml-9 rounded-[50px] bg-amber-600"
