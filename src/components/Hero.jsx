@@ -45,7 +45,7 @@ const Hero = () => {
                 transition={{ duration: 1 }}
               >
                 <img
-                  src="/src/assets/Hero_2.png"
+                  src="/assets/Hero_2.png"
                   alt="travel"
                   className="w-80 md:w-96 h-auto drop-shadow-xl"
                 />
