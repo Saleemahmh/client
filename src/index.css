@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Amarante&family=Updock&display=swap");
+@import "tailwindcss";
+
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .sub-menu {
+    @apply absolute top-[4.2rem] p-[15px] rounded-[6px] backdrop-blur-md shadow-md origin-[50%_-170px] backdrop-blur bg-white/[0.04];
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center;
+  }
+  .flex-center-between {
+    @apply flex items-center justify-between;
+  }
+}
+@theme {
+  --font-amarante:"Amarante", serif;
+  --font-updock: "Updock", cursive;
+}
