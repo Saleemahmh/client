@@ -7,6 +7,7 @@ and follow the setup.
 **Libraries used:**
 - Tailwind CSS
 - Framer Motion
+- React-icons
 
 **In this application**
   - I have made the use of glassmorphism for the Navbar
@@ -36,3 +37,5 @@ and follow the setup.
 **Dashboard:**
 
 ![dashboard](https://github.com/user-attachments/assets/b1af6551-83ec-4653-863b-9e1094b48f4c)
+
+Image and logo resources used from freepik (Free version)
