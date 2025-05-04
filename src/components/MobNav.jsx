@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import {Link} from "react-router-dom"
 import { motion } from "framer-motion";
 import { BsChevronCompactDown } from "react-icons/bs";
 import { IoMenu ,IoClose} from "react-icons/io5";
@@ -38,7 +39,7 @@ export default function MobNav({ Menus }) {
         transition={{ type: "tween", duration: 0.3 }}
       >
         <ul className="flex flex-col gap-1">
-          {Menus.map(({ name, subMenu }, i) => {
+          {Menus.map(({ name, subMenu,link }, i) => {
             const isClicked = clicked === i;
             const hasSubMenu = subMenu?.length;
             return (
@@ -47,7 +48,7 @@ export default function MobNav({ Menus }) {
                   className="flex-center-between p-4 hover:bg-white/5 rounded-md cursor-pointer relative"
                   onClick={() => setClicked(isClicked ? null : i)}
                 >
-                  {name}
+                  <Link to={link}>{name}</Link>
                   {hasSubMenu && (
                     <BsChevronCompactDown
                       className={`ml-auto ${isClicked && "rotate-180"} `}
@@ -61,13 +62,13 @@ export default function MobNav({ Menus }) {
                     variants={subMenuDrawer}
                     className="ml-5"
                   >
-                    {subMenu.map(({ name, icon: Icon }) => (
+                    {subMenu.map(({ name, icon: Icon ,link }) => (
                       <li
                         key={name}
                         className="p-2 flex-center hover:bg-white/5 rounded-md gap-x-2 cursor-pointer"
                       >
                         <Icon size={17} />
-                        {name}
+                        <Link to={link}>{name}</Link>
                       </li>
                     ))}
                   </motion.ul>
