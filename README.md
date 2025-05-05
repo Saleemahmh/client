@@ -35,7 +35,7 @@ and follow the setup.
 ![Login](https://github.com/user-attachments/assets/031dbb17-1040-4986-a0d9-6004942af99f)
 
 **Dashboard:**
-
+To access dashboard login using username: admin password:admin98765
 ![dashboard](https://github.com/user-attachments/assets/b1af6551-83ec-4653-863b-9e1094b48f4c)
 
 Image and logo resources used from freepik (Free version)
