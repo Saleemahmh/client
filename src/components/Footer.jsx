@@ -38,7 +38,7 @@ const Footer = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }} 
   transition={{ duration: 0.8, delay: 0.2 }} 
-      className="bg-amber-950 backdrop-blur-lg border-t border-white/20 text-amber-200 font-amarante "
+      className="bg-indigo-950 backdrop-blur-lg border-t border-white/20 text-amber-200 font-amarante "
     >
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 md:gap-4 gap-2">
         <img className="md:size-25 size-18" src={logo} alt="logo"/>

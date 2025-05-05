@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amarante&family=Updock&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
 @import "tailwindcss";
 
 @tailwind components;
@@ -20,6 +20,5 @@
   }
 }
 @theme {
-  --font-amarante:"Amarante", serif;
-  --font-updock: "Updock", cursive;
-}
+  --font-amarante:"Newsreader", serif;
+ }

@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 
 const Newsletter = () => {
   return (
-    <div className='bg-amber-900/90 flex items-center w-full md:h-[150px] h-[100px] rounded'>
+    <div className='bg-indigo-900/90 flex items-center w-full md:h-[150px] h-[100px] rounded'>
         <div className='flex items-center justify-center md:ml-100 m-3 text-amber-200 font-amarante'>
             
             <h1 className='md:text-2xl'> To book a free Consultation to clear all your queries!</h1>

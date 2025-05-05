@@ -33,7 +33,7 @@ export default function MobNav({ Menus }) {
       </button>
 
       <motion.div
-        className="fixed left-0 right-0 bottom-0 top-16 overflow-y-auto bg-amber-950/90 h-screen backdrop-blur text-amber-200 p-6 pb-20"
+        className="fixed left-0 right-0 bottom-0 top-16 overflow-y-auto bg-indigo-950/90 h-screen backdrop-blur text-amber-200 p-6 pb-20"
         initial={{ x: "-120%" }}
         animate={{ x: isOpen ? "0%" : "-120%" }}
         transition={{ type: "tween", duration: 0.3 }}
