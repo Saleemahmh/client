@@ -210,33 +210,63 @@ export const Menus = [
 ];
 export const premiumServices = [
   {
-    serviceName:"Business Setup",
-    serviceIcon:,
-    serviceDesc:"Complete incorporation service with license processing, office setup and legal documentation.",
-    services:["Company Registration","License Procedure","Legal Documentation","Office Setup"]
+    serviceName: "Business Setup",
+    serviceIcon: "icon",
+    serviceDesc:
+      "Complete incorporation service with license processing, office setup and legal documentation.",
+    services: [
+      "Company Registration",
+      "License Procedure",
+      "Legal Documentation",
+      "Office Setup",
+    ],
   },
   {
-    serviceName:"Business Setup",
-    serviceIcon:,
-    serviceDesc:"Complete incorporation service with license processing, office setup and legal documentation.",
-    services:["Company Registration","License Procedure","Legal Documentation","Office Setup"]
+    serviceName: "Business Setup",
+    serviceIcon: "icon",
+    serviceDesc:
+      "Complete incorporation service with license processing, office setup and legal documentation.",
+    services: [
+      "Company Registration",
+      "License Procedure",
+      "Legal Documentation",
+      "Office Setup",
+    ],
   },
   {
-    serviceName:"Business Setup",
-    serviceIcon:,
-    serviceDesc:"Complete incorporation service with license processing, office setup and legal documentation.",
-    services:["Company Registration","License Procedure","Legal Documentation","Office Setup"]
+    serviceName: "Business Setup",
+    serviceIcon: "icon",
+    serviceDesc:
+      "Complete incorporation service with license processing, office setup and legal documentation.",
+    services: [
+      "Company Registration",
+      "License Procedure",
+      "Legal Documentation",
+      "Office Setup",
+    ],
   },
   {
-    serviceName:"Business Setup",
-    serviceIcon:,
-    serviceDesc:"Complete incorporation service with license processing, office setup and legal documentation.",
-    services:["Company Registration","License Procedure","Legal Documentation","Office Setup"]
+    serviceName: "Business Setup",
+    serviceIcon: "icon",
+    serviceDesc:
+      "Complete incorporation service with license processing, office setup and legal documentation.",
+    services: [
+      "Company Registration",
+      "License Procedure",
+      "Legal Documentation",
+      "Office Setup",
+    ],
   },
   {
-    serviceName:"Business Setup",
-    serviceIcon:,
-    serviceDesc:"Complete incorporation service with license processing, office setup and legal documentation.",
-    services:["Company Registration","License Procedure","Legal Documentation","Office Setup"]
+    serviceName: "Business Setup",
+    serviceIcon: "icon",
+    serviceDesc:
+      "Complete incorporation service with license processing, office setup and legal documentation.",
+    services: [
+      "Company Registration",
+      "License Procedure",
+      "Legal Documentation",
+      "Office Setup",
+    ],
   },
-]
+];
