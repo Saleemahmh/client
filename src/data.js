@@ -211,7 +211,7 @@ export const Menus = [
 export const premiumServices = [
   {
     serviceName: "Business Setup",
-    serviceIcon: "icon",
+    serviceIcon: "/assets/business.png",
     serviceDesc:
       "Complete incorporation service with license processing, office setup and legal documentation.",
     services: [
@@ -222,19 +222,19 @@ export const premiumServices = [
     ],
   },
   {
-    serviceName: "Business Setup",
-    serviceIcon: "icon",
+    serviceName: "Visa Services",
+    serviceIcon: "/src/assets/visa1.png",
     serviceDesc:
-      "Complete incorporation service with license processing, office setup and legal documentation.",
+      "Streamlined visa applications for entrepreneurs, employees and family members.",
     services: [
-      "Company Registration",
-      "License Procedure",
-      "Legal Documentation",
-      "Office Setup",
+      "Business Owner Visa",
+      "Family Residency",
+      "Employee Sponsorship",
+      "Visa Renewal Services",
     ],
   },
   {
-    serviceName: "Business Setup",
+    serviceName: "Bank Account Opening",
     serviceIcon: "icon",
     serviceDesc:
       "Complete incorporation service with license processing, office setup and legal documentation.",
