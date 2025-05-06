@@ -1,6 +1,5 @@
 import MegaNav from "./MegaNav";
 import { Link } from "react-router-dom";
-import Logo from "../assets/Logo.png";
 import { Menus } from "../data";
 import { TbBrandGravatar } from "react-icons/tb";
 import { CgProfile } from "react-icons/cg";
