@@ -6,6 +6,7 @@ import { CiCalculator1 } from "react-icons/ci";
 import { Link } from 'react-router-dom';
 import Services from '../components/Services';
 import PremiumServices from '../components/PremiumServices';
+import Roadmap from '../components/Roadmap';
 const Home = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Home = () => {
       </button>
             <Hero/>
             <Services/>
+            <Roadmap/>
             <Features/>
             <PremiumServices/>
           <Newsletter/>

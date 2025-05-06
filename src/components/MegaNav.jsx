@@ -48,7 +48,7 @@ const MegaNav = ({ menu }) => {
     </span>
     {hasSubMenu && (
       <motion.div
-        className="sub-menu bg-indigo-950/90"
+        className="sub-menu bg-indigo-950/90 "
         initial="exit"
         animate={isHover ? "enter" : "exit"}
         variants={subMenuAnimate}
@@ -70,12 +70,12 @@ const MegaNav = ({ menu }) => {
                     {menu?.subMenuHeading?.[i]}
                   </p>
                 )}
-                <div className="flex-center gap-x-4 group/menubox cursor-pointer">
-                  <div className="bg-white/5 w-fit p-2 rounded-md group-hover/menubox:bg-amber-200 group-hover/menubox:text-indigo-800 duration-300">
+                <div className="flex-center gap-x-4 group/menubox cursor-pointer ">
+                  <div className="bg-white/5 w-fit p-2 rounded-md group-hover/menubox:bg-amber-100 group-hover/menubox:text-indigo-800 duration-300">
                     {submenu.icon && <submenu.icon />}
                   </div>
                   <div>
-                   <Link to={submenu.link} ><h6 className="font-semibold">{submenu.name}</h6></Link>
+                   <Link to={submenu.link} ><h6 className="font-semibold bg-gradient-to-r from-yellow-700 via-amber-200 to-yellow-300 bg-clip-text text-transparent">{submenu.name}</h6></Link>
                   </div>
                 </div>
               </div>
