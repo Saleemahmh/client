@@ -1,4 +1,5 @@
 import MegaNav from "./MegaNav";
+import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import { Menus } from "../data";
 import { TbBrandGravatar } from "react-icons/tb";
@@ -20,7 +21,7 @@ return(
     <>
 <nav className={`bg-transparent font-amarante text-amber-200 fixed lg:w-full md:w-[750px] w-[335px] md:ml-0 ml-1 mt-5 top-0 z-50 transition-colors duration-300 ${scrolled? "text-indigo-950" : "text-amber-200"}`}>
     <div className="grid grid-cols-[auto_1fr_auto]  max-w-7xl mx-auto items-center px-6 py-3 rounded-xl bg-white/10 backdrop-blur-md shadow-md border border-white/20">
-    <img className="flex items-center md:size-9 md:ml-0 ml-0 size-6" src="/src/assets/Logo.png" alt="logo"/>
+    <img className="flex items-center md:size-9 md:ml-0 ml-0 size-6" src={logo} alt="logo"/>
       <div className="hidden lg:flex justify-center gap-5 ">
       {Menus.map((menu) => (
               <MegaNav menu={menu} key={menu.name} />

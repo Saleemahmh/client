@@ -4,6 +4,10 @@ import {motion} from "framer-motion"
 import { BsChevronCompactLeft } from "react-icons/bs";
 import { BsChevronCompactRight } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
+import businessimg from "../assets/business.png";
+import visaimg from "../assets/visa1.png";
+import bankimg from "../assets/bank.png";
+import investmentimg from "../assets/investment.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,7 +17,7 @@ import { Navigation } from "swiper/modules";
 const premiumServices = [
   {
     serviceName: "Business Setup",
-    serviceIcon: "/src/assets/business.png",
+    serviceIcon: businessimg,
     serviceDesc:
       "Complete incorporation service with license processing, office setup and legal documentation.",
     services: [
@@ -25,7 +29,7 @@ const premiumServices = [
   },
   {
     serviceName: "Visa Services",
-    serviceIcon: "/src/assets/visa1.png",
+    serviceIcon: visaimg,
     serviceDesc:
       "Streamlined visa applications for entrepreneurs, employees and family members.",
     services: [
@@ -37,7 +41,7 @@ const premiumServices = [
   },
   {
     serviceName: "Bank Account Opening",
-    serviceIcon: "/src/assets/bank.png",
+    serviceIcon: bankimg,
     serviceDesc:
       "Assistance with both corporate and personal banking solutions with leading UAE banks.",
     services: [
@@ -49,7 +53,7 @@ const premiumServices = [
   },
   {
     serviceName: "Investment Packages",
-    serviceIcon: "/src/assets/investment.png",
+    serviceIcon:investmentimg,
     serviceDesc:
       "Tailored investment opportunities in Dubai's thriving property and business sectors.",
     services: [

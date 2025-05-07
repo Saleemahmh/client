@@ -1,4 +1,5 @@
 import React from "react";
+import cardimg from "../assets/hero2.jpg";
 import {motion} from "framer-motion"
 import { FcApproval } from "react-icons/fc";
 const keyBenefits=[
@@ -36,7 +37,7 @@ const Roadmap = () => {
    >
         <img
           className="w-full h-64 rounded-t-xl"
-          src="/src/assets/hero2.jpg"
+          src={cardimg}
           alt=""
         ></img>
         <div className="p-4">
