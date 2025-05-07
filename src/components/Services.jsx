@@ -11,10 +11,16 @@ const Services = () => {
         <h1 className='text-3xl text-indigo-950'>Your Gateway to Dubai</h1>
         <p className='text-xl '>Discover the comprehensive services designed to make your transition to Dubai Seamless.</p>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-3 ml-17 p-8 gap-1'>
+        <motion.div className='grid grid-cols-1 md:grid-cols-3 ml-17 p-8 gap-1'
+         initial={{ opacity: 0, y: 50 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         viewport={{ once: true, amount: 0.2 }} 
+     transition={{ duration: 0.8, delay: 0.2 }}  
+     >
         <motion.div className='bg-white w-[80%] border border-indigo-500/40 rounded-xl shadow-xl/20 hover:bg-indigo-950/80 hover:text-amber-100'
                  whileHover={{ scale: 1.1 }}
-                 transition={{ type: "spring", stiffness: 200, damping: 8 }}>
+                 transition={{ type: "spring", stiffness: 200, damping: 8 }}
+                 >
                 <div className='bg-indigo-950 w-fit m-4 p-2 text-amber-200 rounded '>
                     <IoHome></IoHome>
                 </div>
@@ -43,7 +49,7 @@ const Services = () => {
                 <Link className="p-8" to="/">Explore</Link>
             </motion.div>
 
-        </div>
+        </motion.div>
 
     </section>
     

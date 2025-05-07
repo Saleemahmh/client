@@ -87,7 +87,11 @@ const PremiumServices = () => {
           expanding to Dubai.
         </p>
       </div>
-      <div className="w-[100%]">
+      <motion.div className="w-[100%]"
+       initial={{ opacity: 0, y: 50 }}
+       whileInView={{ opacity: 1, y: 0 }}
+       viewport={{ once: true, amount: 0.2 }} 
+   transition={{ duration: 0.8, delay: 0.2 }}  >
         <Swiper
           spaceBetween={30}
           navigation={{
@@ -153,7 +157,7 @@ const PremiumServices = () => {
               <BsChevronCompactRight className="size-6"></BsChevronCompactRight>
             </button>
           </div>
-          </div>
+          </motion.div>
     </section>
   );
 };
