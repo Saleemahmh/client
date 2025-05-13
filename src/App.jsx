@@ -12,6 +12,10 @@ import LicenseRenewal from "./pages/userDashboard/LicenseRenewal";
 import TrackStatus from "./pages/userDashboard/TrackStatus";
 import UserDashboard from "./pages/userDashboard/UserDashboard";
 import UploadDoc from "./pages/userDashboard/UploadDoc";
+import CalculatorHub from "./components/Calculator/CalculatorHub";
+import LoanCalculator from "./components/Calculator/LoanCalculator";
+import RoiCalculator from "./components/Calculator/RoiCalculator"
+import DubaiLiving from "./components/Calculator/DubaiLiving";
 function App() {
   return (
     <Router>
@@ -30,6 +34,11 @@ function App() {
 
         <Route path="/dashboard/track" element={<TrackStatus/>}/>
         </Route>
+        {/*Calculator Hub */}
+        <Route path="/calculatorhub" element={<CalculatorHub />} />
+        <Route path="/loan-calculator" element={<LoanCalculator />} />
+        <Route path="/roi-calculator" element={<RoiCalculator />} />
+        <Route path="/dubai-living-calculator" element={<DubaiLiving />} />
       </Routes>
       <Footer></Footer>
     </Router>

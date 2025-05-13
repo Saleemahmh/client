@@ -1,5 +1,5 @@
 import React from "react";
-import cardimg from "../assets/hero2.jpg";
+import cardimg from "../assets/roadmap.jpg";
 import {motion} from "framer-motion"
 import { FcApproval } from "react-icons/fc";
 const keyBenefits=[
@@ -21,15 +21,16 @@ const keyBenefits=[
     }
 ]
 const Roadmap = () => {
+
   return (
     <>
     <h1 className="flex justify-center py-4 bg-indigo-900 text-2xl lg:text-4xl text-amber-200">
         Why Dubai is your Next Business Destination
     </h1>
-   <section className="grid grid-cols-1 lg:grid-cols-2 gap-2 px-55 py-10 font-amarante bg-indigo-900 items-start">
+   <section className="grid grid-cols-1 lg:grid-cols-2 gap-2 px-4 md:px-10 py-10 font-amarante bg-indigo-900 items-start">
   
       {/*card*/}
-      <motion.div className="bg-indigo-100 w-[550px] rounded-xl border border-indigo-800 shadow-xl"
+      <motion.div className="bg-indigo-100 w-full max-w-xl rounded-xl border border-indigo-800 shadow-xl"
        initial={{ opacity: 0, y: 50 }}
        whileInView={{ opacity: 1, y: 0 }}
        viewport={{ once: true, amount: 0.2 }} 
@@ -58,7 +59,7 @@ const Roadmap = () => {
 
   
       {/*roadmap*/}
-      <motion.div className="grid md:grid-cols-2 bg-white grid-rows-4 rounded-lg mt-6 p-6 lg:w-[550px] lg:h-[550px]"
+      <motion.div className="grid md:grid-cols-2 bg-white grid-rows-4 rounded-lg mt-6 p-6 w-full max-w-xl"
        initial={{ opacity: 0, y: 50 }}
        whileInView={{ opacity: 1, y: 0 }}
        viewport={{ once: true, amount: 0.2 }} 

@@ -30,7 +30,7 @@ const Hero = () => {
                  Build your legacy in Dubai- where ambition is rewarded with full control, global reach, and an ecosystem built to propel business leaders towards success.
                 </p>
                 <motion.button
-                  className="h-[60px] w-[200px] text-amber-200 mt-4 cursor-pointer ml-9 rounded-[50px] bg-indigo-950"
+                  className="h-[60px] w-[200px] text-amber-200 mt-4 cursor-pointer md:ml-9 ml-13 rounded-[50px] bg-indigo-950"
                   whileHover={{ scale: 1.1 }}
                   transition={{ type: "spring", stiffness: 400, damping: 10 }}
                 >
