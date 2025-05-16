@@ -36,7 +36,7 @@ const CalculatorHub = () => {
     <div className="absolute inset-0">
       <div className="w-full h-full bg-[url('/src/assets/hero2.jpg')] bg-cover bg-center opacity-30" />
     </div>
-    <div className="container relative z-999 mx-auto px-4 py-8 max-w-3xl font-amarante text-indigo-900">
+    <div className="container relative z-20 mx-auto px-4 py-8 max-w-3xl font-amarante text-indigo-900">
       <h1 className="text-3xl font-bold mt-15 text-center mb-2 bg-gradient-to-r from-yellow-700 via-amber-200 to-yellow-300 bg-clip-text text-transparent">Financial Calculator Hub</h1>
       <p className="text-center text-amber-600 mb-12">Select from our expert-designed tools to make smarter, data-driven financial decisions.</p>
 

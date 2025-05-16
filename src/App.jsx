@@ -16,6 +16,9 @@ import CalculatorHub from "./components/Calculator/CalculatorHub";
 import LoanCalculator from "./components/Calculator/LoanCalculator";
 import RoiCalculator from "./components/Calculator/RoiCalculator"
 import DubaiLiving from "./components/Calculator/DubaiLiving";
+import PartnerVisa from "./pages/visa/PartnerVisa";
+import FreelancerVisa from "./pages/visa/FreelancerVisa";
+import GoldenVisa from "./pages/visa/GoldenVisa";
 function App() {
   return (
     <Router>
@@ -25,7 +28,10 @@ function App() {
         <Route path="/login" element={<Login/>}></Route>
         <Route path="/register" element={<Register/>}></Route>
         <Route path="/pagenotfound" element={<PageNotFound/>}></Route>
-        <Route path="/investor_visa" element={<InvestorVisa/>}></Route>
+        <Route path="/investorvisa" element={<InvestorVisa/>}></Route>
+        <Route path="/partnervisa" element={<PartnerVisa/>}></Route>
+        <Route path="/freelancervisa" element={<FreelancerVisa/>}></Route>
+        <Route path="/goldenvisa" element={<GoldenVisa/>}></Route>
         <Route path="/dashboard" element={<Dashboard/>}>
         <Route index element={<UserDashboard/>}/>
         <Route path="/dashboard/myapplications" element={<MyApplication/>}/>

@@ -82,22 +82,22 @@ export const Menus = [
     subMenu: [
       {
         name: "Investor Visa",
-        link: "/pagenotfound",
+        link: "/investorvisa",
         icon: TfiShoppingCartFull,
       },
       {
         name: " Partner Visa",
-        link: "/pagenotfound",
+        link: "/partnervisa",
         icon: RiMapPinUserFill,
       },
       {
         name: "Freelancer Visa",
-        link: "/pagenotfound",
+        link: "/freelancervisa",
         icon: LuBellDot,
       },
       {
         name: "Golden Visa",
-        link: "/pagenotfound",
+        link: "/goldenvisa",
         icon: RiVipCrown2Line,
       },
     ],
@@ -108,7 +108,7 @@ export const Menus = [
     subMenu: [
       {
         name: "Cost Calculator",
-        link: "/pagenotfound",
+        link: "/calculatorhub",
         icon: LuCircleHelp,
       },
       {
